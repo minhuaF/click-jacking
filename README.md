@@ -102,4 +102,16 @@
 ![avatar](./image/truth.png)
 
 
+### 其他
+
+本来想做个坏事的，想要试试用于豆瓣上，直接定位到关注按钮那，不过 iframe 豆瓣的页面时，控制台报错了，这个想要说明的是使用设置`X-frame-options`属性是真有效的。
+
+![avatar](./image/errer1.png)
+
+也试过直接内嵌 `github `  的地址，也会报错，这个错是报跨域的错，不过具体的还不知道是怎么设置防御的。
+
+```
+an ancestor violates the following Content Security Policy directive: “frame-ancestors ...
+```
+
 至此，已经把 `点击劫持` 的形式演示完毕
