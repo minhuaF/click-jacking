@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .vote{
+      width: 183px;
+      margin: 0 auto;
+      margin-top: 220px
+    }
+  </style>
+</head>
+<body>
+  <div class="vote">
+    <input type="text" value="5号选手">
+    <button>投票</button>
+  </div>
+
+  <script>
+    var span = document.getElementsByTagName('button')[0]
+    span.addEventListener('click', function(){
+      console.log('哈哈，谢谢你偷偷帮我投票～')
+    })
+  </script>
+</body>
+</html>
